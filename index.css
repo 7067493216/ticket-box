@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(227, 244, 244);
+}
+.head{
+    display: flex;
+    /* background-color: brown; */
+    
+   width: 40%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.main_div {
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+    background-color: lightgrey;
+    align-items: center;
+
+    
+    
+}
+.list {
+    margin-left: 2px;
+
+}
+
+.icons{
+    height: 40px;
+    width: 23%;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.iccon {
+    margin-left: 40px;
+    /* margin: 70px; */
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+.plan {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan span {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(31, 31, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    margin-right: 650px;
+    margin-top: 120px;
+    border-radius: 20px;
+      
+}
+
+.plan span h3 {
+    padding: 30px;
+}
+
+
+.ticket_box {
+    height: 240px;
+    width: 400px;
+    /* backgrund-color: blueviolet; */
+    border-radius: 20px;
+    /* margin: 20px; */
+    overflow: hidden;
+}
+
+.upper_part {
+    height: 45%;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    
+}
+
+.suite{
+    /* background-color:greenyellow; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 5px;
+}
+.pn{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.lower_part {
+   /* background-color: rgb(102, 102, 213); */
+   background-image: linear-gradient(to right,rgb(41, 144, 200),rgb(4, 4, 83));
+}
+.price{
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  
+
+}
+.price h3{
+    margin-top: 30px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    /* margin: 15px; */
+    justify-content: center;
+    align-items: center;
+    /* background-color:green; */
+    /* width: 80%; */
+    /* margin-right: 100px; */
+    height: 94px;
+
+
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    background-color:skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 15px;
+    outline: none;
+    
+}
+.but_sel{
+    background-color: rgb(230, 155, 15);
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap: 2rem;
+  margin-bottom: 300px;
+    
+}
+.parentBox{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
